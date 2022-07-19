@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shadw\\Escritorio\\ProyectoUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {}
+    "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shadw\\Escritorio\\ProyectoUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {
+    "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shadw\\Escritorio\\ProyectoUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
+        "projectUniqueName": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
         "projectName": "ClinicaImagen",
-        "projectPath": "C:\\Users\\Shadw\\Escritorio\\ProyectoUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
+        "projectPath": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
         "packagesPath": "C:\\Users\\Shadw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shadw\\Escritorio\\ProyectoUTU\\ClinicaImagen-app\\ClinicaImagen\\obj\\",
+        "outputPath": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shadw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.29, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
