@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {}
+    "C:\\Users\\maviz\\Proyecto\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {
+    "C:\\Users\\maviz\\Proyecto\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
+        "projectUniqueName": "C:\\Users\\maviz\\Proyecto\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
         "projectName": "ClinicaImagen",
-        "projectPath": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
-        "packagesPath": "C:\\Users\\Shadw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\obj\\",
+        "projectPath": "C:\\Users\\maviz\\Proyecto\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
+        "packagesPath": "C:\\Users\\maviz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maviz\\Proyecto\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shadw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maviz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
