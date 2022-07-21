@@ -20,8 +20,7 @@ namespace ClinicaImagen
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            var conx = new MainBD();
-            MySqlConnection connection = new MySqlConnection(conx.connString);
+            MySqlConnection connection = new MySqlConnection(MainBD.connString);
             string nombre = txtNombre.Text;
             string correo = txtCorreo.Text;
             string passwd = txtPwd.Text;
@@ -50,6 +49,18 @@ namespace ClinicaImagen
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void FormRegister_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormLogin formLogin = new FormLogin();
+            this.Hide();
+            formLogin.Show();
         }
     }
     

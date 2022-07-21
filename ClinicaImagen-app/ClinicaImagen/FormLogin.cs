@@ -21,24 +21,29 @@ namespace ClinicaImagen
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            var conx = new MainBD();
-            MySqlConnection connection = new MySqlConnection(conx.connString);
+            MySqlConnection connection = new MySqlConnection(MainBD.connString);
             connection.Open();
             var correo_form = txtUser.Text;
             var passwd_form = txtPasswd.Text;
-            var loginQuery = new MySqlCommand($"SELECT nombre, verificado FROM usuarios WHERE correo =\"{correo_form}\" AND passwd=\"{passwd_form}\"", connection);
+            var loginQuery = new MySqlCommand($"SELECT nombre, verificado, cargo FROM usuarios WHERE correo =\"{correo_form}\" AND passwd=\"{passwd_form}\"", connection);
             var reader = loginQuery.ExecuteReader();
             reader.Read();
-      
-            if (reader.HasRows && Boolean.Parse(reader["verificado"].ToString()) == true)
+
+            if (reader.HasRows && Boolean.Parse(reader["cargo"].ToString()) == true)
+            {
+                Paneladmin paneladmin = new Paneladmin();
+                this.Hide();
+                paneladmin.Show();
+            }
+            else if (reader.HasRows && Boolean.Parse(reader["verificado"].ToString()) == true)
             {
                 MessageBox.Show($"Bienvenido {reader["nombre"].ToString()}");
-            } else
+            }
+            
+            else
             {
                 MessageBox.Show("Su usuario/contraseña son invalidos o no se encuentra verificado en este momento", "Error de consulta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-
-            connection.Close();
         }
 
         private void btnRegistro_Click(object sender, EventArgs e)

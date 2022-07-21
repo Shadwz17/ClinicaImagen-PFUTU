@@ -57,3 +57,4 @@ C:\Users\maviz\Proyecto\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\
 C:\Users\maviz\Proyecto\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ClinicaImagen.genruntimeconfig.cache
 C:\Users\maviz\Proyecto\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ref\ClinicaImagen.dll
 C:\Users\maviz\Proyecto\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ClinicaImagen.Properties.Resources.resources
+C:\Users\maviz\Proyecto\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ClinicaImagen.Paneladmin.resources

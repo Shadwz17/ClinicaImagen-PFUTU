@@ -65,7 +65,7 @@
             // 
             this.txtUser.Location = new System.Drawing.Point(124, 229);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(110, 23);
+            this.txtUser.Size = new System.Drawing.Size(110, 24);
             this.txtUser.TabIndex = 2;
             // 
             // txtPasswd
@@ -73,7 +73,7 @@
             this.txtPasswd.Location = new System.Drawing.Point(124, 282);
             this.txtPasswd.Name = "txtPasswd";
             this.txtPasswd.PasswordChar = '*';
-            this.txtPasswd.Size = new System.Drawing.Size(110, 23);
+            this.txtPasswd.Size = new System.Drawing.Size(110, 24);
             this.txtPasswd.TabIndex = 3;
             // 
             // Correo
@@ -81,7 +81,7 @@
             this.Correo.AutoSize = true;
             this.Correo.Location = new System.Drawing.Point(124, 211);
             this.Correo.Name = "Correo";
-            this.Correo.Size = new System.Drawing.Size(43, 15);
+            this.Correo.Size = new System.Drawing.Size(45, 15);
             this.Correo.TabIndex = 4;
             this.Correo.Text = "Correo";
             // 
@@ -90,7 +90,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(124, 264);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 15);
+            this.label1.Size = new System.Drawing.Size(70, 15);
             this.label1.TabIndex = 5;
             this.label1.Text = "Contraseña";
             // 
@@ -144,7 +144,9 @@
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.btnRegistro);
             this.Controls.Add(this.btnLogin);
+            this.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormLogin";
             this.Text = "Clinica Imagen";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -24,6 +24,6 @@ namespace ClinicaImagen
     public class MainBD
     {
         public static MySqlConnection? connection;
-        public string connString = "server=localhost;database=clinicaimagen_dev;uid=root;pwd=\"\"";
+        public static string connString = "server=localhost;database=clinicaimagen_dev;uid=root;pwd=\"\"";
     }
 }
