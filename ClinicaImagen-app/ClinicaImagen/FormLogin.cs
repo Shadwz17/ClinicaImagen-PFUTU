@@ -19,10 +19,16 @@ namespace ClinicaImagen
         }
 
 
+        public static class informacion
+        {
+            public static string correoLogin { get; set; }
+        }
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             MySqlConnection connection = new MySqlConnection(MainBD.connString);
             connection.Open();
+            informacion.correoLogin = txtUser.Text;
             var correo_form = txtUser.Text;
             var passwd_form = txtPasswd.Text;
             var loginQuery = new MySqlCommand($"SELECT nombre, verificado, cargo FROM usuarios WHERE correo =\"{correo_form}\" AND passwd=\"{passwd_form}\"", connection);

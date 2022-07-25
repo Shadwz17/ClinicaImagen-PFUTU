@@ -58,3 +58,6 @@ C:\Users\maviz\Proyecto\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\
 C:\Users\maviz\Proyecto\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ref\ClinicaImagen.dll
 C:\Users\maviz\Proyecto\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ClinicaImagen.Properties.Resources.resources
 C:\Users\maviz\Proyecto\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ClinicaImagen.Paneladmin.resources
+C:\Users\Shadw\Source\Repos\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ClinicaImagen.Paneladmin.resources
+C:\Users\Shadw\Source\Repos\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ClinicaImagen.Properties.Resources.resources
+C:\Users\Shadw\source\repos\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ClinicaImagen.csproj.ResolveComReference.cache

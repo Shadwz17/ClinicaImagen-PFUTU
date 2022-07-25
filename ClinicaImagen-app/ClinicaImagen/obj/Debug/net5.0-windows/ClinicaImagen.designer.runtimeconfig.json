@@ -6,8 +6,8 @@
       "version": "5.0.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\maviz\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\maviz\\.nuget\\packages"
+      "C:\\Users\\Shadw\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Shadw\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
