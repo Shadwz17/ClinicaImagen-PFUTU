@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using Microsoft.VisualBasic;
+using System.Net;
+using System.Net.Mail;
 
 namespace ClinicaImagen
 {
@@ -102,13 +104,26 @@ namespace ClinicaImagen
 
         private void btnVerificar_Click(object sender, EventArgs e)
         {
+            var from = "fzalasupport@c1550024.ferozo.com";
+            var subject = "Verificación - Clinica Imagen";
+            var body = "Has sido verificado en la aplicación de Clinica Imagen";
+            var passwordEmail = "i@/1Axd4wT";
+            var client = new SmtpClient("c1550024.ferozo.com", 465)
+            {
+                Credentials = new NetworkCredential(from, passwordEmail),
+                EnableSsl = true
+            };
+            
+            
             string correo;
             correo = Interaction.InputBox("Ingrese el correo a verificar: ", "Verificador");
+            var to = correo;
 
             using (MySqlConnection connection = new MySqlConnection(MainBD.connString))
             {
                 using (MySqlCommand verificarQuery = new MySqlCommand($"UPDATE usuarios SET verificado=1 WHERE correo=\"{correo}\";", connection))
                 {
+                    client.Send(from, to, subject, body);
                     connection.Open();
                     MySqlDataReader reader = verificarQuery.ExecuteReader();
                 }

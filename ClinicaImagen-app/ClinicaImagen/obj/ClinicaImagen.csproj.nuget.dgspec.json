@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {}
+    "C:\\Users\\Shadw\\Source\\Repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {
+    "C:\\Users\\Shadw\\Source\\Repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
+        "projectUniqueName": "C:\\Users\\Shadw\\Source\\Repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
         "projectName": "ClinicaImagen",
-        "projectPath": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
+        "projectPath": "C:\\Users\\Shadw\\Source\\Repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
         "packagesPath": "C:\\Users\\Shadw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\obj\\",
+        "outputPath": "C:\\Users\\Shadw\\Source\\Repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shadw\\AppData\\Roaming\\NuGet\\NuGet.Config",
