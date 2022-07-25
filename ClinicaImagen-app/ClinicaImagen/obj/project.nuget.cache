@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7C481RmwHdzI8TXE2uB6urohgkRexJvsHS42e0DXGyXiemyQPZVEqZeiMX39r0oPn7XScrzTZVkq7Uy4OZWHRQ==",
+  "dgSpecHash": "2g/Op+oXdUutu0BvpcbpIkyyntDmjsupMtDZXny6Ea0uy98u+ZMJXt4ujha8gQI+Sudz9SqV/AzMbGFdooh6KA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
+  "projectFilePath": "C:\\Users\\Shadw\\Source\\Repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shadw\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Shadw\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
