@@ -20,6 +20,15 @@
           "lib/net5.0/Dapper.dll": {}
         }
       },
+      "EASendMail/7.9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/EASendMail.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/EASendMail.dll": {}
+        }
+      },
       "Google.Protobuf/3.19.4": {
         "type": "package",
         "compile": {
@@ -324,6 +333,32 @@
         "lib/net5.0/Dapper.xml",
         "lib/netstandard2.0/Dapper.dll",
         "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "EASendMail/7.9.0.1": {
+      "sha512": "/o9Zwy6N6uChfnYTB2votC2nhf9gcFjTmMSyTS2BvZxOz+Y4Lcv5rZ55XhlTu3Inuh+Yzx626frWb+3IBQpHHw==",
+      "type": "package",
+      "path": "easendmail/7.9.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "easendmail.7.9.0.1.nupkg.sha512",
+        "easendmail.nuspec",
+        "lib/net20-cf/EASendMail.dll",
+        "lib/net20/EASendMail.dll",
+        "lib/net35-cf/EASendMail.dll",
+        "lib/net40/EASendMail.dll",
+        "lib/net45/EASendMail.dll",
+        "lib/net461/EASendMail.dll",
+        "lib/net5.0/EASendMail.deps.json",
+        "lib/net5.0/EASendMail.dll",
+        "lib/netcoreapp3.1/EASendMail.deps.json",
+        "lib/netcoreapp3.1/EASendMail.dll",
+        "lib/netstandard2.0/EASendMail.deps.json",
+        "lib/netstandard2.0/EASendMail.dll",
+        "lib/uap10.0/EASendMail.winmd",
+        "tools/init.ps1"
       ]
     },
     "Google.Protobuf/3.19.4": {
@@ -876,23 +911,24 @@
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "Dapper >= 2.0.123",
+      "EASendMail >= 7.9.0.1",
       "MySql.Data >= 8.0.29"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Shadw\\.nuget\\packages\\": {}
+    "C:\\Users\\maviz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
+      "projectUniqueName": "C:\\Users\\maviz\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
       "projectName": "ClinicaImagen",
-      "projectPath": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
-      "packagesPath": "C:\\Users\\Shadw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Shadw\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\obj\\",
+      "projectPath": "C:\\Users\\maviz\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
+      "packagesPath": "C:\\Users\\maviz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maviz\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Shadw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maviz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -921,6 +957,10 @@
           "Dapper": {
             "target": "Package",
             "version": "[2.0.123, )"
+          },
+          "EASendMail": {
+            "target": "Package",
+            "version": "[7.9.0.1, )"
           },
           "MySql.Data": {
             "target": "Package",

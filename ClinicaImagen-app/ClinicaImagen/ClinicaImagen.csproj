@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="EASendMail" Version="7.9.0.1" />
     <PackageReference Include="MySql.Data" Version="8.0.29" />
   </ItemGroup>
 

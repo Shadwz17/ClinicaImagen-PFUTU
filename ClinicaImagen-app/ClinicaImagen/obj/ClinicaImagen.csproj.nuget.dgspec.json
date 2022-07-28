@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shadw\\Source\\Repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {}
+    "C:\\Users\\maviz\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shadw\\Source\\Repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {
+    "C:\\Users\\maviz\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shadw\\Source\\Repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
+        "projectUniqueName": "C:\\Users\\maviz\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
         "projectName": "ClinicaImagen",
-        "projectPath": "C:\\Users\\Shadw\\Source\\Repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
-        "packagesPath": "C:\\Users\\Shadw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shadw\\Source\\Repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\obj\\",
+        "projectPath": "C:\\Users\\maviz\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\ClinicaImagen.csproj",
+        "packagesPath": "C:\\Users\\maviz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maviz\\source\\repos\\ClinicaImagen-PFUTU\\ClinicaImagen-app\\ClinicaImagen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shadw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maviz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.123, )"
+            },
+            "EASendMail": {
+              "target": "Package",
+              "version": "[7.9.0.1, )"
             },
             "MySql.Data": {
               "target": "Package",

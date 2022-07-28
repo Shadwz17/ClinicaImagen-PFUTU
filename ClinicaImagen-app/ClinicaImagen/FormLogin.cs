@@ -43,7 +43,9 @@ namespace ClinicaImagen
             }
             else if (reader.HasRows && Boolean.Parse(reader["verificado"].ToString()) == true)
             {
-                MessageBox.Show($"Bienvenido {reader["nombre"].ToString()}");
+                Form1 form1 = new Form1();
+                this.Hide();
+                form1.Show();
             }
             
             else

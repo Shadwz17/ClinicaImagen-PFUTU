@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Shadw\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Shadw\\.nuget\\packages"
+      "C:\\Users\\maviz\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\maviz\\.nuget\\packages"
     ]
   }
 }

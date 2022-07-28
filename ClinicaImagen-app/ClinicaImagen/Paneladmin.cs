@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using Microsoft.VisualBasic;
-using System.Net;
-using System.Net.Mail;
+using EASendMail;
 
 namespace ClinicaImagen
 {
@@ -104,32 +103,18 @@ namespace ClinicaImagen
 
         private void btnVerificar_Click(object sender, EventArgs e)
         {
-            var from = "fzalasupport@c1550024.ferozo.com";
-            var subject = "Verificación - Clinica Imagen";
-            var body = "Has sido verificado en la aplicación de Clinica Imagen";
-            var passwordEmail = "i@/1Axd4wT";
-            var client = new SmtpClient("c1550024.ferozo.com", 465)
-            {
-                Credentials = new NetworkCredential(from, passwordEmail),
-                EnableSsl = true
-            };
-            
-            
-            string correo;
-            correo = Interaction.InputBox("Ingrese el correo a verificar: ", "Verificador");
-            var to = correo;
+                string correo;
+                correo = Interaction.InputBox("Ingrese el correo a verificar: ", "Verificador");
 
-            using (MySqlConnection connection = new MySqlConnection(MainBD.connString))
-            {
-                using (MySqlCommand verificarQuery = new MySqlCommand($"UPDATE usuarios SET verificado=1 WHERE correo=\"{correo}\";", connection))
+                using (MySqlConnection connection = new MySqlConnection(MainBD.connString))
                 {
-                    client.Send(from, to, subject, body);
-                    connection.Open();
-                    MySqlDataReader reader = verificarQuery.ExecuteReader();
+                    using (MySqlCommand verificarQuery = new MySqlCommand($"UPDATE usuarios SET verificado=1 WHERE correo=\"{correo}\";", connection))
+                    {
+                        connection.Open();
+                        MySqlDataReader reader = verificarQuery.ExecuteReader();
+                    }
                 }
             }
-        }
-
         private void btnActualizar_Click(object sender, EventArgs e)
         {
             dgVerificados.DataSource = usuariosVerificados();
@@ -150,6 +135,11 @@ namespace ClinicaImagen
                     MessageBox.Show("La contraseña por defecto es CICliente", "Clinica Imagen - Admin", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
