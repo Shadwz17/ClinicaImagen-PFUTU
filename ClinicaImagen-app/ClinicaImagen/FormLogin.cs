@@ -43,9 +43,9 @@ namespace ClinicaImagen
             }
             else if (reader.HasRows && Boolean.Parse(reader["verificado"].ToString()) == true)
             {
-                Form1 form1 = new Form1();
+                Form4 form4 = new Form4();
                 this.Hide();
-                form1.Show();
+                form4.Show();
             }
             
             else
@@ -69,6 +69,11 @@ namespace ClinicaImagen
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+         
         }
     }
 }

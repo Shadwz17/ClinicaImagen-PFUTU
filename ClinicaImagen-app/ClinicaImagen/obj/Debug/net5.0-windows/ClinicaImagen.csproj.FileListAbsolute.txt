@@ -96,3 +96,5 @@ C:\Users\maviz\source\repos\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\
 C:\Users\maviz\source\repos\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ClinicaImagen.Form1.resources
 C:\Users\maviz\source\repos\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\bin\Debug\net5.0-windows\EASendMail.dll
 C:\Users\maviz\source\repos\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ClinicaImagen.Form2.resources
+C:\Users\maviz\source\repos\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ClinicaImagen.Form3.resources
+C:\Users\maviz\source\repos\ClinicaImagen-PFUTU\ClinicaImagen-app\ClinicaImagen\obj\Debug\net5.0-windows\ClinicaImagen.Form4.resources
